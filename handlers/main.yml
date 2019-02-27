@@ -1,0 +1,4 @@
+---
+# handlers file for tomcat_ssl
+- name: restart tomcat8 service
+  service: "name={{ tomcat_service }} state={{ tomcat_restart_state }}"

@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Jibsan Joel Rosa Toirac
+  description: Configuring Tomcat to reddirect all conections from HTTP to HTTPS
+  company: SOFTEL
+
+  license: license (GPLv2, CC-BY, etc)
+
+  min_ansible_version: 1.2
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - 18.04 Bionic
+
+  galaxy_tags: []
+
+
+  dependencies: []

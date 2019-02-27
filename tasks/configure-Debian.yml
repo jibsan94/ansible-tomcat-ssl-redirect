@@ -1,0 +1,12 @@
+---
+
+- name: Copying Certificate to server
+  copy: src=KeyStore.jks dest={{ tomcat_server_root }}/conf/KeyStore.jks
+
+- name: Copying Server XML file to server
+  copy: src=server.xml dest={{ tomcat_server_root }}/conf/server.xml
+
+- name: Copying Web XML file to server
+  copy: src=web.xml dest={{ tomcat_server_root }}/conf/web.xml
+  notify:
+    - restart tomcat8 service

@@ -1,0 +1,10 @@
+---
+tomcat_service: tomcat8
+tomcat_daemon: tomcat8
+tomcat_daemon_path: /usr/sbin/
+tomcat_server_root: /var/lib/tomcat8
+tomcat_conf_path: /etc/tomcat8
+
+__tomcat_packages:
+  - tomcat8
+  - tomcat8-admin

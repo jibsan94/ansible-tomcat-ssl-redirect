@@ -1,0 +1,11 @@
+---
+# Set initial apache state. Recommended values: `started` or `stopped`
+tomcat_state: started
+
+# Set apache state when configuration changes are made. Recommended values:
+# `restarted` or `reloaded`
+tomcat_restart_state: restarted
+
+# Apache package state; use `present` to make sure it's installed, or `latest`
+# if you want to upgrade or switch versions using a new repo.
+tomcat_packages_state: latest

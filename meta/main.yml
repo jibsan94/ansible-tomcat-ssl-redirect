@@ -1,6 +1,6 @@
 galaxy_info:
   author: Jibsan Joel Rosa Toirac
-  description: Computer Engineer
+  description: Configuring Tomcat to redirect all requests from HTTP to HTTPS 
 
   license: license (GPLv2, CC-BY, etc)
 
